@@ -1,0 +1,48 @@
+html body {
+    margin: 0;
+    padding: 0 1em;
+    overflow-x: hidden;
+}
+
+#info-details {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+#info-details button {
+    margin: 1rem;
+}
+
+/*! Value Display */
+#display-value {
+    height: 50vh;
+    text-align: center;
+}
+
+#display-value > * {
+    margin-top: .5rem;
+}
+
+.card {
+    color: lightgray
+}
+
+/*! Form */
+form {
+    text-align: center;
+    height: 40vh;
+    margin: 4rem 0;
+}
+
+form > * {
+    margin: .5rem 0;
+}
+
+.input-title {
+    width: 40%;
+}
+
+form #quick-calc-btn > * {
+    margin: 0 .5rem;
+}
